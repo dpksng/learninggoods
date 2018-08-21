@@ -1,0 +1,96 @@
+/*-----------------body start-------------------------*/
+html,body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+.bd{
+	background-image:url('../img/background/shadow.jpg');
+	background-color:#4d3065;
+	min-height:100%;
+	background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.bd .quote{
+	margin-top:210px;
+}
+
+/*-----------------body start-------------------------*/
+
+/*-----------------navbar start-------------------------*/
+
+.home-mr{
+	margin-top:20px;
+}
+
+.menu .menu-nav{
+	margin-top:15px;
+}
+
+.menu .menu-nav .menu-link{
+	font-family:verdana;
+	font-size:12px;
+	color:#dde3e8;
+}
+
+.menu .menu-nav .menu-link:hover{
+	color:#fd003b;
+}
+/*-----------------navbar start-------------------------*/
+
+/*-----------------footer start-------------------------*/
+.footer{
+	margin-top:15px;
+	padding:0;
+}
+.footer ul{
+	list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.footer ul li{
+	float:left;
+	font-family:verdana;
+}
+
+.footer ul li a{
+	display:block;
+	font-size:12px;
+    color:#dde3e8;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+	color:#fd003b;
+	font-family:verdana;
+	font-size:12px;
+}
+
+.footer .cpr{
+	float:right;
+	font-family:verdana;
+	font-size:12px;
+    color:#dde3e8;
+    text-align:right;
+	margin:0;
+    padding:14px 16px;
+}
+
+.footer .cpr a{
+	font-family:verdana;
+	font-size:12px;
+	color: #dde3e8;
+	text-decoration:none;
+}
+
+.footer .cpr a:hover{
+	color: #fd003b;
+}
+/*-----------------footer ends-------------------------*/

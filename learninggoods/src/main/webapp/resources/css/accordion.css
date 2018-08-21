@@ -1,0 +1,116 @@
+#accordion-btn{
+	margin-top:100px;
+}
+
+.btn-l{
+	float:left;
+}
+
+.btn-r{
+	float:right;
+}
+
+#accordion-btn .btn-b a{
+	background-color: rgba(83,52,109,0.9);
+	z-index: 2;
+	color:#fd003b;
+	font-family:"arial Black", Verdana, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+	text-decoration:none;    
+	width:50%;
+	height:50px;
+}
+
+#accordion-btn .btn-b a:hover{
+	color:#ffffff;
+}
+
+#accordion-btn .btn-e a{
+	color:#FFFFFF;
+	font-family:"arial Black", Verdana, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+	text-decoration:none;
+    z-index: 2;
+	width:50%;
+	height:50px;
+}
+
+#accordion-btn .btn-e a:hover{
+	color:#fd003b;
+}
+
+
+#accordion1{
+	display:block;
+}
+
+
+#accordion1 .accordion-panel{
+	float:left;
+	background-color: rgba(83,52,109,0.9);
+    z-index: 2;
+	color:#FFFFFF;
+	width:100%;
+}
+
+#accordion1 .accordion-panel .section-login{
+	padding:40px;
+	height:380px;
+	margin-top:10px;
+}
+
+#accordion1 .accordion-panel .section-login a{
+	float:left;
+	text-decoration:none;
+	margin-top:5px;
+	color:#FFFFFF;
+}
+
+#accordion1 .accordion-panel .section-login a:hover{
+	text-decoration:none;
+	color:#fd003b;
+}
+
+#accordion2{
+	display:none;
+}
+
+#accordion2 .accordion-panel{
+	float:left;
+	background-color:rgba(83,52,109,0.9);
+    z-index: 2;
+	color:#FFFFFF;
+	width:100%;
+}
+
+#accordion2 .accordion-panel .section-reg{
+	padding:40px;
+	height:520px;
+	margin-top:10px;
+}
+
+#accordion2 .accordion-panel .section-reg a{
+	float:left;
+	text-decoration:none;
+	margin-top:5px;
+	color:#FFFFFF;
+}
+
+#accordion2 .accordion-panel .section-reg a:hover{
+	text-decoration:none;
+	color:#fd003b;
+}
+
+
+.cust-btn{
+	background-color:#fd003b;
+	color:#FFFFFF;
+}
+
+.label{
+	height:50px;
+}
